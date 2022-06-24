@@ -14,11 +14,12 @@ namespace Task2._10
             int maxValue = 100;
             int numberFromRandom = random.Next(maxValue);
             int degree = 0;
+            int number = 2;
             int numberInDegree = 0;
 
             for (; numberInDegree <= numberFromRandom; degree++)
             {
-                numberInDegree = (int)Math.Pow(2, degree);
+                numberInDegree = (int)Math.Pow(number, degree);
             }
         }
     }
